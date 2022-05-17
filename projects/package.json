@@ -3,17 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "dev": "nodemon app.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "*",
+    "bootstrap": "^5.0.1",
     "cookie-parser": "*",
     "debug": "*",
     "express": "*",
     "jade": "*",
+    "method-override": "^3.0.0",
     "mongodb": "*",
-    "mongoose": "^6.3.3",
+    "mongoose": "^5.12.9",
     "monk": "*",
     "morgan": "*",
     "serve-favicon": "*"

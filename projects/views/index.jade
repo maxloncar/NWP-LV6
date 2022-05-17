@@ -1,61 +1,6 @@
 extends layout
 
 block content
-    // Wrapper
-    #wrapper
-
-        // PROJECT INFO
-        #projectInfo
-            h2 Pregled detalja o projektu
-            p
-                strong Naziv projekta:
-                |  <span id='projectName'></span>
-                br
-                strong Opis projekta:
-                |  <span id='projectDescription'></span>
-                br
-                strong Cijena projekta:
-                |  <span id='projectPrice'></span>
-                br
-                strong Obavljeni poslovi:
-                |  <span id='projectFinishedWorks'></span>
-                br
-                strong Datum početka:
-                |  <span id='projectStartDate'></span>
-                br
-                strong Datum završetka:
-                |  <span id='projectEndDate'></span>
-                br
-                strong Članovi projektnog tima:
-                |  <span id='projectMembers'></span>
-
-        // PROJECT LIST
-        h2 Popis projekata
-        #projectList
-            table
-                thead
-                    th Naziv projekta
-                    th Opis projekta
-                    th Cijena projekta
-                    th Edit?
-                    th Delete?
-                tbody
-
-        // ADD PROJECT
-        h2 Dodaj novi projekt
-        #addProject
-            fieldset
-                input#inputProjectName(type='text', placeholder='Name')
-                input#inputProjectDescription(type='text', placeholder='Description')
-                br
-                input#inputProjectPrice(type='text', placeholder='Price')
-                input#inputProjectFinishedWorks(type='text', placeholder='Finished works')
-                br
-                input#inputProjectMembers(type='text', placeholder='Members')
-                br
-                input#inputProjectStartDate(type='date', placeholder='Start date')
-                input#inputProjectEndDate(type='date', placeholder='Finish date')
-                br
-                button#btnAddProject Add Project
-
-        // /WRAPPER
+  h1= title
+  p Welcome to #{title}
+  p Lista projekata se nalazi na ruti /projects

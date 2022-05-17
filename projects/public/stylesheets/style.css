@@ -1,23 +1,23 @@
 body {
-  padding: 50px;
+  padding: 5%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00b7ff;
 }
 
 h2 {
   margin: 0 0 0.5em 0;
 }
 
+a {
+  color: #00b7ff;
+}
+
 #wrapper {
-  padding-left: 25%;
   position: relative;
+  padding-bottom: 50px;
 }
 
 #projectList {
-  margin: 0 0 30px 0;
+  margin: 30px 0 50px 0;
 }
 
 #projectList table {
@@ -28,7 +28,7 @@ h2 {
 
 #projectList table th {
   background: #eee;
-  font-weight: 600;
+  font-weight: bold;
   padding: 10px 20px;
   text-align: center;
 }
@@ -65,6 +65,6 @@ fieldset {
   margin: 0;
 }
 
-input {
-  margin: 0 10px 10px 0;
+.details {
+  margin-top: 30px;
 }
